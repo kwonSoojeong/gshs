@@ -11,8 +11,6 @@
 # 리스트 1번을 2~n 까지 비교, 같은 것이 있으면 결과집합에 넣음
 # n-1 까지 반복
 
-# a = [tom, tom, hello, hello, sj, kiki, sj, google, sj, google, naver, google]
-
 def find_same_name(names):
     n = len(names)
     result = set()
@@ -23,4 +21,6 @@ def find_same_name(names):
     return result
 
 
-                
+name = ["tom", "sj", "ks", "soojeong", "sc" , "google", "hello", "mynameis", "tom", "sj"]
+print(find_same_name(name))
+
