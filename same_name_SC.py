@@ -18,3 +18,5 @@ def same_name(NameList):
     return same_name
 
 NameList = ["Tom", "Mik6", "jack", "Tom", "jerry" ]
+
+print(same_name(NameList))
